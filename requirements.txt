@@ -1,5 +1,4 @@
 plotly
-plotly-graph_objs
 streamlit
 pandas
 numpy
