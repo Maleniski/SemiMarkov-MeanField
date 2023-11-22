@@ -252,7 +252,7 @@ with col1:
         **Explicación:**  
                 
         En la gráfica superior podemos ver la evolución de las configuraciones en las etapas $k=0,1,2,...,$ considerando una cantidad $N$ de objetos fija.
-        Cuando $N$ es muy grande, podemos considerar que los valores que se observan gráficados son los valores que se tendríamos en el proceso de campo medio.  
+        Cuando $N$ es muy grande, podemos considerar que los valores que se observan graficados son los valores que se tendríamos en el proceso de campo medio.  
     """)
 
 
