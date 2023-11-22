@@ -68,7 +68,7 @@ with st.expander("Teoría detras del tablero"):
         $$
         w_{k}:=\{w^{i}(k)\}_{i\in S}.
         $$
-        donde $\{w_n^i(k)\}$  es una familia de variables aleatorias uniformemente distribuidas en $[0,1]$ con $n\in\{1,2,...,N\}$. Considerando que $\sum_{j=1}^{\infty} NM_j^N(k)=N$, se tiene que $w_k\in[0,1]^N$. Entonces
+        donde $\{w_n^i(k)\}$  es una familia de variables aleatorias uniformemente distribuidas en $[0,1]$ con $n\in\{1,2,...,N\}$. Considerando que $\sum_{j=1}^{s} NM_j^N(k)=N$, se tiene que $w_k\in[0,1]^N$. Entonces
         """)
     st.latex(r"""M_{j}^{N}(k+1)= \frac{1}{N}\sum_{i=1}^{\infty}\sum_{n=1}^{NM_{i}^{N}(k)}1_{\Delta_{ij}(a_{k})}(w_{n}^{i}(k)). \quad (1)""")
     st.markdown("""
