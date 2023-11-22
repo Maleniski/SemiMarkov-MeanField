@@ -70,7 +70,7 @@ with st.expander("Teoría detras del tablero"):
         $$
         donde $\{w_n^i(k)\}$  es una familia de variables aleatorias uniformemente distribuidas en $[0,1]$ con $n\in\{1,2,...,N\}$. Considerando que $\sum_{j=1}^{s} NM_j^N(k)=N$, se tiene que $w_k\in[0,1]^N$. Entonces
         """)
-    st.latex(r"""M_{j}^{N}(k+1)= \frac{1}{N}\sum_{i=1}^{\infty}\sum_{n=1}^{NM_{i}^{N}(k)}1_{\Delta_{ij}(a_{k})}(w_{n}^{i}(k)). \quad (1)""")
+    st.latex(r"""M_{j}^{N}(k+1)= \frac{1}{N}\sum_{i=1}^{s}\sum_{n=1}^{NM_{i}^{N}(k)}1_{\Delta_{ij}(a_{k})}(w_{n}^{i}(k)). \quad (1)""")
     st.markdown("""
         Finalmente, se define la función $H^N$ como
         """)
@@ -78,7 +78,7 @@ with st.expander("Teoría detras del tablero"):
     st.markdown("""
         donde
         """)
-    st.latex(r"""H_{j}^{N}(m,a,w)=\frac{1}{N}\sum_{i=1}^{\infty}\sum_{n=1}^{Nm_{i}}1_{\Delta _{ij}(a)}(w_{n}^{i}(k)),""")
+    st.latex(r"""H_{j}^{N}(m,a,w)=\frac{1}{N}\sum_{i=1}^{s}\sum_{n=1}^{Nm_{i}}1_{\Delta _{ij}(a)}(w_{n}^{i}(k)),""")
     st.markdown("""    
         y $m=\{m_{i}\}_{i\in S}$, $k\in \mathbb{N}_0$.  
 
