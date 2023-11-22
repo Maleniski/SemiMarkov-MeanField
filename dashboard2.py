@@ -38,7 +38,7 @@ st.markdown("""
             - Proporción (distribución) de objetos en cada clase cuando comienza a correr el sistema (tiempo cero).
             """)
 
-with st.expander("Teoría detras del tablero"):
+with st.expander("Teoría detrás del tablero"):
     st.markdown(
         """
         Dado un sistema controlado que se compone de una cantidad finita de clases $S=\{1,2,...,s\}$ y $N$ objetos que se distribuyen a lo largo del conjunto
