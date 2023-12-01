@@ -35,7 +35,7 @@ st.markdown("""
             personalizar esto. Para poder realizar su simulación con los valores de su preferencia, es necesario indicar lo siguiente:
 
             - Número de iteraciones (o etapas) que desea simular. 
-            - Cantidad de objectos en cada clase y matriz de transición entre clases, la cual debe subir en un único csv.
+            - Cantidad de objectos en cada clase en la etapa cero y matriz de transición entre clases, la cual debe subir en un único csv.
             """)
 
 with st.expander("Teoría detrás del tablero"):
@@ -125,7 +125,7 @@ uploaded_file = st.file_uploader("Cargue la matriz con el número de objetos en 
 
 with st.expander("¿Cómo subo mis propios datos?"):
     st.markdown("""
-                Una matriz con formato correcto para este tablero es de la siguiente forma. En el primer renglón está la cantidad de objetos en cada clase, y
+                Una matriz con formato correcto para este tablero es de la siguiente forma. En el primer renglón está la cantidad de objetos en cada clase en la etapa cero, y
                 del segundo renglón en adelante, se encuentra la matriz de transición. Se presenta un ejemplo a continuación:
                 
                 |     |      |      |
