@@ -122,18 +122,20 @@ num_iterations = st.number_input('Número de iteraciones', value=10, min_value=1
 # Set up the file uploader
 uploaded_file = st.file_uploader("Cargue la matriz con el número de objetos en cada clase en el primer renglón, y la matriz de transición como CSV", type=["csv"])
 
-st.markdown("""
-            Una matriz con formato correcto para este tablero es de la siguiente forma. En el primer renglón está la cantidad de objetos en cada clase, y
-            del segundo renglón en adelante, se encuentra la matriz de transición. Se presenta un ejemplo a continuación:
-            
-            |     |      |      |
-            | --- | ---  | ---  |
-            | 50  | 75   | 30   |
-            | 0.8 | 0.15 | 0.05 |
-            | 0.3 | 0.4  | 0.3  |
-            | 0.1 | 0.3  | 0.6  |
-            
-            """)
+
+with st.expander("¿Cómo subo mis propios datos?"):
+    st.markdown("""
+                Una matriz con formato correcto para este tablero es de la siguiente forma. En el primer renglón está la cantidad de objetos en cada clase, y
+                del segundo renglón en adelante, se encuentra la matriz de transición. Se presenta un ejemplo a continuación:
+                
+                |     |      |      |
+                | --- | ---  | ---  |
+                | 50  | 75   | 30   |
+                | 0.8 | 0.15 | 0.05 |
+                | 0.3 | 0.4  | 0.3  |
+                | 0.1 | 0.3  | 0.6  |
+                
+                """)
 
 
 # Initialize with default values if no file is uploaded
@@ -141,6 +143,10 @@ transition_matrix = default_transition_matrix if uploaded_file is None else None
 initial_population = [50, 30, 20] if uploaded_file is None else None
 population_size = np.sum(initial_population) if uploaded_file is None else None
 default_proportions = initial_population/population_size if uploaded_file is None else None
+if uploaded_file is None:
+    # Display current transition matrix and population
+    st.write("Matriz de transición actual por default:")
+    st.write(transition_matrix)
 
 
 if uploaded_file is not None:
