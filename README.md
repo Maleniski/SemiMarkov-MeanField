@@ -6,6 +6,7 @@ This repository contains a Streamlit dashboard designed for simulating the evolu
 **Author:** María Elena Martínez Manzanares  
 **PhD Thesis Title:** Modelos de Control semi-Markovianos para sistemas de grandes poblaciones bajo un enfoque de campo medio  
 **Supervisor:** Dr. Jesús Adolfo Minjárez Sosa  
+**Institution:** University of Sonora (México)
 
 ## Dashboard Description
 The dashboard allows users to simulate the evolution of object proportions distributed in a finite number of classes. By default, the simulation runs with preset values, but these can be customized to fit specific needs.
