@@ -7,7 +7,6 @@ This repository contains a Streamlit dashboard designed for simulating the evolu
 **PhD Thesis Title:** Semi-Markovian Control Models for Large Population Systems Under a Mean Field Approach
 **Supervisor:** Dr. Jesús Adolfo Minjárez Sosa
 
-
 ## Dashboard Description
 The dashboard allows users to simulate the evolution of object proportions distributed in a finite number of classes. By default, the simulation runs with preset values, but these can be customized to fit specific needs.
 
@@ -19,3 +18,16 @@ The dashboard allows users to simulate the evolution of object proportions distr
 
 ### License
 This project is licensed under the MIT License.
+
+### Contact
+
+For any queries, suggestions, or clarifications regarding these instruments, please contact María Elena in the following channels:
+
+- 📧 Email: 
+  - malena.mzn@outlook.com
+  - a214200821@unison.mx
+- 🔗 [LinkedIn](https://www.linkedin.com/in/malenamanzanares/)
+
+Thank you for your interest in this research.
+
+![](https://raw.githubusercontent.com/Maleniski/repositorio_imagenes/main/img_distribuciones-muestrales-PT-UNADM/logo-unison.png)
