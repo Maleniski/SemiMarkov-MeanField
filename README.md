@@ -10,7 +10,7 @@ This repository contains a Streamlit dashboard designed for simulating the evolu
 ## Dashboard Description
 The dashboard allows users to simulate the evolution of object proportions distributed in a finite number of classes. By default, the simulation runs with preset values, but these can be customized to fit specific needs.
 
-### Key Features:
+### Key Features
 * Customizable number of iterations (or stages) for the simulation.
 * Option to specify the number of objects in each class at stage zero and the transition matrix, uploaded as a single CSV file.
 * Theoretical background information provided for a comprehensive understanding of the simulation process.
