@@ -20,7 +20,7 @@ with st.sidebar:
     **Nombre de tesis:** Modelos de Control semi-Markovianos para sistemas de grandes poblaciones bajo un enfoque de campo medio   
     **Director de tesis:** Dr. Jesús Adolfo Minjárez Sosa  
     **Fecha de última modificación:** 01-12-2023  
-    *Agradecimientos a la Dra. Carmen Geraldi Higuera Chan por sus valiosas sugerencias en la realización de este tablero.*
+    *Agradecimiento a la Dra. Carmen Geraldi Higuera Chan por sus valiosas sugerencias en la realización de este tablero.*
     """)
 
 #region Cabecera
