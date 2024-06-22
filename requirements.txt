@@ -1,6 +1,6 @@
-plotly
-streamlit
-pandas
-numpy
-pillow
-matplotlib == 3.5
+plotly==5.18.0
+streamlit==1.36.0
+pandas==1.5.3
+numpy==1.26.3
+pillow==10.3.0
+matplotlib==3.5
